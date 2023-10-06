@@ -1,0 +1,11 @@
+.inputStayle {
+    width: 180px;
+    border: none;
+    margin: 0 auto;
+}
+
+.list {
+    position: relative;
+    top: 5px;
+    left: 25px;
+}
