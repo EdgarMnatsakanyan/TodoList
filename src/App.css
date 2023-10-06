@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+.parentContianer {
+    box-shadow: 1px 1px 8px 2px #bdbdbd;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.parentContianer h1 {
+    background-color: grey;
+    width: 505px;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ourContainer {
+    display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.prosContainer {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #000;
+    padding-bottom: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.prosContainer h3 {
+    border-bottom: 1px solid #000;
+    margin: 0;
+    width: 251px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.prosContainer input { 
+    width: 180px;
+    border: none;
+    margin: 0 auto;
+}
+.consContainer {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #000;
+    padding-bottom: 15px;
+}
+.consContainer h3 {
+    border-bottom: 1px solid #000;
+    margin: 0;
+    height: 35px;
+    width: 251px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prosInput {
+    position: relative;
+    left: -8px;
+    box-shadow: 1px 1px 6px 1px #bdbdbd;
+}
+
+.consInput {
+    position: relative;
+    left: -8px;
+    box-shadow: 1px 1px 6px 1px #bdbdbd;
+}
+
+.consContainer input {
+    width: 180px;
+    border: none;
+    margin: 0 auto;
+}
+
+.list {
+    position: relative;
+    top: 5px;
+    left: 25px;
+}
+
+.childList {
+    position: absolute;
 }
