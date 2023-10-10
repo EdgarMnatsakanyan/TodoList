@@ -26,7 +26,7 @@ const MyInput = () => {
         }
       };
     return (
-        <div>
+        <>
         {pros.map((pro, index) => (
             <div key={index} className={cl.list}>
               {index + 1}.
@@ -38,7 +38,7 @@ const MyInput = () => {
                 />
             </div>
           ))}
-        </div>
+        </>
     );
 };
 
